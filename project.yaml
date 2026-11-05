@@ -1,0 +1,54 @@
+# .project metadata for OpenRL
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+schema_version: "1.0.0"
+slug: "openrl"
+name: "OpenRL"
+description: "Self-hosted kubernetes-native post training (RL) API for LLMs"
+type: "project"
+project_lead:
+  - "droot"
+
+maturity_log:
+  - phase: "sandbox"
+    date: 2026-09-28T00:00:00Z
+    issue: "https://github.com/cncf/sandbox/issues/518"
+
+repositories:
+  - "https://github.com/openrl-dev/openrl"
+
+website: "https://openrl.dev"
+
+package_managers:
+  pypi: "open-rl"
+  docker:
+    - "ghcr.io/openrl-dev/openrl/server"
+
+security:
+  policy:
+    path: "https://github.com/openrl-dev/openrl/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/openrl-dev/openrl/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/openrl-dev/openrl/blob/main/CONTRIBUTING.md"
+  governance_doc:
+    path: "https://github.com/openrl-dev/openrl/blob/main/GOVERNANCE.md"
+  code_of_conduct:
+    path: "https://github.com/openrl-dev/openrl/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/openrl-dev/openrl/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/openrl-dev/openrl/blob/main/README.md"
+  architecture:
+    path: "https://github.com/openrl-dev/openrl/blob/main/docs/architecture.md"

@@ -1,0 +1,17 @@
+# Maintainer roster for OpenRL
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+#
+# Handles only. Each maintainer's name, email, and affiliation come from their
+# LFID profile at https://openprofile.dev. Keep in sync with MAINTAINERS.md in
+# the openrl repository.
+
+maintainers:
+  - project_id: "openrl"
+    org: "openrl-dev"
+    teams:
+      - name: "maintainers"
+        members:
+          - droot
+          - ShubyM
+          - hodaaaaaaaaaa
+          - linde
